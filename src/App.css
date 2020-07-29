@@ -1,0 +1,48 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+.ColorMeApp {
+border: 1px solid rgb(172, 141, 141);
+margin:50px;
+padding:30px;
+background-color: burlywood;
+}
+.board {
+padding:50px
+}
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.square:focus {
+  outline: none;
+}
+.input-wrap {
+  margin:32px;
+}
+.button-wrap {
+  margin-left: 86px;
+}
+.colorBtn{
+  border-radius: 12px;
+}
+.name {
+  float:right;
+}
